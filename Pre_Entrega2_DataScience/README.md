@@ -70,7 +70,7 @@ Lenguaje: Python 3.10+
 
 Librerías:
 
-Primera entrega
+Segunda entrega
 
 * Análisis exploratorio de datos: Pandas, Geopandas, Shapely.geometry
 
