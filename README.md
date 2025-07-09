@@ -1,4 +1,4 @@
-🛢️ # Proyecto 4x4 YPF - Análisis de Vaca Muerta
+# 🛢️ Proyecto 4x4 YPF - Análisis de Vaca Muerta
 # Pre-Entrega 4 - Data Science
 # Grupo 3 - Fundación YPF / Programa Ingenias+
 # Introducción
