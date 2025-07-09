@@ -50,13 +50,13 @@ Análisis potencial exportador de Vaca Muerta – La Nación https://www.lanacio
 ├── README.md # Este archivo
 
 # Metodología
-Análisis Exploratorio de Datos
+## Análisis Exploratorio de Datos
 En el análisis exploratorio de datos del proyecto de producción de petróleo y gas en Vaca Muerta, en el marco del Plan 4x4 de YPF, se integraron diferentes funciones para analizar la información que contenia el dataset de Producción de pozos no convencional de Secretaría de Energía de la Nación así como se realizaron múltiples visualizaciones para comprender la evolución y el comportamiento de variables clave como producción mensual de petróleo y gas, subtipo de recursos y áreas de yacimiento. Se aplicaron técnicas estadísticas, como describe, y gráficas para detectar tendencias mensuales y anuales, estacionalidades y anomalías, identificando un crecimiento sostenido en la actividad no convencional a partir de 2021.
 
-Modelado Supervisado
+## Modelado Supervisado
 En el proyecto aplicado a Vaca Muerta, los modelos supervisados se utilizaron para predecir la producción futura de petróleo y gas, por área de yacimiento o permiso de concesión. Se entrenaron algoritmos como regresión lineal, Random Forest, XGBoost y Prophet con datos históricos, permitiendo estimar el comportamiento esperado hasta 2029. Estos modelos ofrecieron métricas de rendimiento satisfactorias y permitieron proyectar distintos escenarios, brindando una herramienta estratégica para evaluar el cumplimiento de las metas del Plan 4x4 y apoyar la toma de decisiones en planificación energética.
 
-Modelo No Supervisado y Redes Neuronales
+## Modelo No Supervisado y Redes Neuronales
 En el proyecto 4x4 de producción de petróleo y gas en Vaca Muerta, se aplicaron modelos no supervisados como K-Means, DBSCAN, MeanShift, PCA y GMM para identificar patrones y agrupar áreas con comportamientos similares en producción, sin necesidad de etiquetas previas. Además, se implementaron redes neuronales no supervisadas como los mapas autoorganizados de Kohonen (SOM) y autoencoders para la reducción de dimensionalidad y visualización de relaciones complejas entre variables. Estas técnicas permitieron detectar producciones estratégicas, outliers y posibles segmentos de alto rendimiento, aportando valor al análisis exploratorio y a la planificación de acciones dentro del marco del Plan 4x4.
 
 # Herramientas utilizadas
