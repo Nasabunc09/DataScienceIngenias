@@ -62,19 +62,11 @@ En el proyecto 4x4 de producción de petróleo y gas en Vaca Muerta, se aplicaro
 # Herramientas utilizadas
 Lenguaje: Python 3.10+
 
-Librerías:
-
 Librerías: NumPy, Pandas, Geopandas, Shapely.geometry, Matplotlib, Scikit-learn, SciPy, PyTorch, TensorFlow y Keras
 
 Modelado Supervisado: RandomForestRegressor,SVR, XGBRegressor,GridSearchCV, MultiOutputRegressor, Prophet, train_test_split, mean_absolute_error
 
 Modelado No Supervisado: PCA, Autoencoder, GMM, KMeans, DBSCAN, PCA, MiniSOM
-
-Visualización: matplotlib, seaborn, plotly, contextily, scipy
-
-Otros: jupyter, google colab, GitHub
-
-Modelado: PCA, Autoencoder, GMM, KMeans, DBSCAN
 
 Visualización: matplotlib, seaborn, plotly, contextily, scipy
 
