@@ -1,24 +1,24 @@
-🛢️ Proyecto 4x4 YPF - Análisis de Vaca Muerta
-Pre-Entrega 4 - Data Science
-Grupo 3 - Fundación YPF / Programa Ingenias+
-Introducción
+🛢️ # Proyecto 4x4 YPF - Análisis de Vaca Muerta
+# Pre-Entrega 4 - Data Science
+# Grupo 3 - Fundación YPF / Programa Ingenias+
+# Introducción
 El proyecto 4x4 de YPF tiene como objetivo principal cuadruplicar la producción de la compañía en los próximos 4 años, enfocándose en la eficiencia operativa, la generación de valor y la concentración de esfuerzos en los activos más rentables a corto plazo, como Vaca Muerta, la principal cuenca petrolera del país.
 
 Este trabajo busca analizar el crecimiento de la producción de petróleo y gas en la cuenca neuquina desde el año 2021 en adelante, considerando exclusivamente los datos correspondientes a YPF S.A.. El análisis se basa en indicadores clave como la producción no convencional, las principales 5 áreas de concesiones y el subtipo de recurso producido, ya sea shale o tight en los últimos años.
 
 En el análisis, se busca aportar evidencia empírica sobre la evolución y proyección del potencial de expansión de YPF en Vaca Muerta, en línea con los objetivos planteados en su plan estratégico 4x4.
 
-Objetivo
+# Objetivo
 El objetivo del proyecto es analizar y predecir el crecimiento de la producción de petróleo y gas por parte de YPF S.A. en la cuenca neuquina, evaluando el impacto de diferentes variables relacionadas con la actividad extractiva y operativa.
 
-Integrantes - Grupo 3
+# Integrantes - Grupo 3
 Este proyecto fue desarrollado por el Grupo 3 del curso de Data Science de Fundación YPF en el marco del programa Ingenias+, que busca incorporar más mujeres al mundo de la programación.
 
 Cyntia Nasabun – Diplomada en Análisis de Datos e IA, IFES, Neuquén.
 
 Antonella Fontanetto – Licenciada en Economía, Universidad de Buenos Aires
 
-Datasets utilizados
+# Datasets utilizados
 Los datos provienen de fuentes públicas oficiales del Gobierno Nacional y de la Provincia del Neuquén:
 
 Producción de Pozos de Petróleo y Gas http://datos.energia.gob.ar/dataset/produccion-de-petroleo-y-gas-por-pozo
@@ -45,7 +45,7 @@ Estructura del repositorio
 
 ├── README.md # Este archivo
 
-Metodología
+# Metodología
 La metodología implementada en el proyecto está relacionada con la búsqueda minuciosa de información relevante para el desarrollo del mismo, en función de las respuestas a nuestro modelo predictivo. Teniendo como eje principal la proyección de la producción de petróleo y gas en Vaca Muerta por parte de YPF S.A. para los próximos años.
 
 En el análisis se implementaron varios modelos de aprendizaje no supervisado, es decir, modelos que aprenden de datos no etiquetados del pasado para luego hacer predicciones, de esta manera estos modelos nos permiten dar soporte a decisiones estratégicas para la compañía.
@@ -76,12 +76,12 @@ Calinski-Harabasz Index (o Variance Ratio Criterion): Mide la proporción entre 
 
 Inercia (Within-cluster sum of squares): Utilizada en KMeans, mide la suma de las distancias cuadradas entre los puntos y el centroide del cluster. A menor inercia, mejor ajuste (aunque puede sobreajustar si hay demasiados clusters).
 
-Breve análisis de cada versión estudiada
+# Breve análisis de cada versión estudiada
 Versión con outliers: se decidió aplicar los diferentes modelos anteriores para el dataframe completo con outliers (prod_encoded_df) y así analizar cuales fueron los resultados de las métricas. En este caso el coeficiente de determinación (R²) resultó ser de 60% lo que indica que debería reajustarse el modelo ya que no es un resultado óptimo para predecir la proyección futura de la producción de petróleo y gas.
 
 Versión con datos agrupados: para esta versión se trabajó con un un dataset con los datos agrupados por mes de la producción de petróleo y gas (prod_encoded_df(2)) y de esta manera se aplicaron todos los modelos de aprendizaje no supervisado. En este caso para el modelo KMeans
 
-Herramientas utilizadas Cuarta entrega
+# Herramientas utilizadas Cuarta entrega
 Lenguaje: Python 3.10+
 
 Librerías: NumPy, Pandas, Matplotlib, Scikit-learn, SciPy, PyTorch, TensorFlow y Keras
